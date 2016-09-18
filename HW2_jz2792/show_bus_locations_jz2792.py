@@ -21,4 +21,4 @@ if __name__ == '__main__':
         for i in range(Buscount):
             latitude = Busdata[i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
             longitude = Busdata[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
-        print "Bus %d is at latitude %f and longitude %f" % (i, latitude, longitude)
+            print "Bus %d is at latitude %f and longitude %f" % (i, latitude, longitude)
