@@ -1,3 +1,6 @@
+from __future__ import print_function
+import sys
+import os
 import pylab as pl
 import json
 import urllib.request as ulr
