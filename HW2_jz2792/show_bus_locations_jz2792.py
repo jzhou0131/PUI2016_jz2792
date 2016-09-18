@@ -10,10 +10,11 @@ if __name__ == '__main__':
         key = sys.argv[1]
         LineRef = sys.argv[2]
         url = 'http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=%s&VehicleMonitoringDetailLevel=calls&LineRef=%s' % (sys.argv[1],sys.argv[2]) 
-    
+        
         response = ulr.urlopen(url)
         data = response.read().decode("utf-8")
         data = json.loads(data) 
+        
         Busdata = data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']
         Buscount = len(data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])
         print "Bus Line : %s" % (sys.argv[2])
