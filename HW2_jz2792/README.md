@@ -9,11 +9,11 @@ I refered the internet to understand the syntax of some of the code.
 I searched the stop status and next stop name using the json file reader.
 I appended the data into a list and wrote it into a csv file.
 
-## Assignment 3:
+## Assignment 3 & Extra:
 
 I set the environment variable using the export command in the bashrc file.
 I use the data from the NYC open data library and saved it as a Pandas dataframe.
 I edited the columns and renamed then.
 I plotted them using the plot command and used style 'o'.
 
-Contributions: Yao Wang, Aaron Dsouza, Vishwajeet Shelar helped me with my Asssignment. 
+Contributions: Yao Wang, Aaron Dsouza, Vishwajeet Shelar helped me with my Asssignments. 
