@@ -1,4 +1,4 @@
-## The graph shows the relationship between CO2 emission and population size/density 
+## The graph shows the relationship between CO2 emission and population size or population density 
 
 It is in 3 dimensions:
 
